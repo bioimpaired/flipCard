@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ImageCardFace = ({ src }) => {
   return (
@@ -7,6 +8,10 @@ const ImageCardFace = ({ src }) => {
       <i className="flip-icon fas fa-sync" />
     </div>
   );
+};
+
+ImageCardFace.propTypes = {
+  src: PropTypes.string.isRequired
 };
 
 export default ImageCardFace;

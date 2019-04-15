@@ -42,7 +42,7 @@
   transform-style: preserve-3d;
   border: 1px solid rgb(221, 221, 221);
 
-  box-shadow: 0.5px 0.5px 100px 0.5px #ccc;
+  box-shadow: 3px 3px 1000px -50px #ccc;
 }
 
 /* Position the front and back side 
