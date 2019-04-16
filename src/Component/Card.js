@@ -22,7 +22,6 @@ const Card = ({ data }) => {
       <div onClick={handleClick} className={`flip-card-inner ${rotateCss}`}>
         <div className="flip-card-front">
           <div className={`${showTopBarCss}`} />
-          {/* front is always a short text type */}
           <TextCardFace type="shortText" text={frontText} flipCard={flipCard} />
         </div>
         <div className={`flip-card-back ${bottomFadeCss}`}>

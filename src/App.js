@@ -27,7 +27,6 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    // mimic redux state
     this.state = {
       blocks: [shortType, imageType, longType]
     };
@@ -38,7 +37,6 @@ class App extends Component {
     return (
       <div className="App">
         <div className="title-header">Flashcards Block</div>
-        {/* set some kind of max width to have only 3 */}
         <div className="d-flex flex-wrap m-1">
           {blocks.map(block => (
             <Card data={block} />
